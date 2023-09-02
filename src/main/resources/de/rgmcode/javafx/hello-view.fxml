@@ -8,23 +8,23 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.rgmcode.javafx.HelloController">
-   <Label layoutX="327.0" layoutY="53.0" text="Headline:">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="600.0" style="-fx-background-color: #A3B4A2;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.rgmcode.javafx.HelloController">
+   <Label layoutX="327.0" layoutY="53.0" text="Headline:" textFill="WHITE">
       <font>
          <Font size="16.0" />
       </font></Label>
-   <Label layoutX="328.0" layoutY="94.0" text="Description:">
+   <Label layoutX="328.0" layoutY="88.0" text="Description:" textFill="WHITE">
       <font>
          <Font size="16.0" />
       </font></Label>
    <TextField fx:id="txfHeadline" layoutX="395.0" layoutY="50.0" prefHeight="25.0" prefWidth="191.0" />
-   <Button fx:id="btnAdd" layoutX="327.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnAdd" text="add" />
+   <Button fx:id="btnAdd" layoutX="327.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnAdd" style="-fx-background-color: #6E8E86;" text="add" textFill="WHITE" />
    <ListView fx:id="lvListe" layoutX="14.0" layoutY="52.0" prefHeight="318.0" prefWidth="300.0" />
-   <TextArea fx:id="taDescription" layoutX="327.0" layoutY="111.0" prefHeight="217.0" prefWidth="258.0" />
-   <Button fx:id="btnDelete" layoutX="389.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnDelete" text="delete" />
-   <Button fx:id="btnUpdate" layoutX="462.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnUpdate" text="update" />
-   <Button layoutX="540.0" layoutY="345.0" mnemonicParsing="false" text="clear" />
-   <Label layoutX="14.0" layoutY="8.0" prefHeight="35.0" prefWidth="134.0" text="ToDo-App">
+   <TextArea fx:id="taDescription" layoutX="327.0" layoutY="111.0" prefHeight="217.0" prefWidth="258.0" style="-fx-background-color: #D2CBB5;" />
+   <Button fx:id="btnDelete" layoutX="389.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnDelete" style="-fx-background-color: #6E8E86;" text="delete" textFill="WHITE" />
+   <Button fx:id="btnUpdate" layoutX="462.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnUpdate" style="-fx-background-color: #6E8E86;" text="update" textFill="WHITE" />
+   <Button fx:id="btnClear" layoutX="540.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnClear" style="-fx-background-color: #6E8E86;" text="clear" textFill="WHITE" />
+   <Label layoutX="14.0" layoutY="8.0" prefHeight="35.0" prefWidth="134.0" text="ToDo-App" textFill="WHITE">
       <font>
          <Font size="28.0" />
       </font>
